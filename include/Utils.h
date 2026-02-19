@@ -1,8 +1,10 @@
 #pragma once
 
-#include <SDL.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
+#define SDL_ENABLE_OLD_NAMES 1
+#include <SDL3/SDL.h>
+#include <SDL3/SDL_oldnames.h>
+#include <SDL3_image/SDL_image.h>
+#include <SDL3_ttf/SDL_ttf.h>
 
 #include <algorithm>
 #include <cmath>

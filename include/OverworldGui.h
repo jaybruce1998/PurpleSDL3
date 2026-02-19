@@ -1,6 +1,10 @@
 #pragma once
 
-#include <SDL.h>
+#ifndef SDL_ENABLE_OLD_NAMES
+#define SDL_ENABLE_OLD_NAMES 1
+#endif
+#include <SDL3/SDL.h>
+#include <SDL3/SDL_oldnames.h>
 #include <string>
 #include <vector>
 
